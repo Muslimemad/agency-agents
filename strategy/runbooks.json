@@ -170,6 +170,64 @@
           ]
         }
       ]
+    },
+    {
+      "slug": "home-services-websites",
+      "title": "Booked-Jobs Websites for Home-Service Contractors",
+      "mode": "NEXUS-Sprint",
+      "duration": "3 weeks to launch, then continuous",
+      "summary": "An agent-run web agency selling conversion sites to US roofing, HVAC, plumbing and electrical contractors, from lead sourcing and prebuilt spec sites to monthly booked-jobs reports.",
+      "doc": "strategy/runbooks/scenario-home-services-websites.md",
+      "roster": [
+        {
+          "group": "Command & Governance",
+          "activation": "always",
+          "agents": [
+            "agents-orchestrator",
+            "automation-governance-architect",
+            "specialized-workflow-architect",
+            "support-legal-compliance-checker"
+          ]
+        },
+        {
+          "group": "Offer & Acquisition",
+          "activation": "week 1+",
+          "agents": [
+            "sales-offer-lead-gen-strategist",
+            "specialized-pricing-analyst",
+            "sales-outbound-strategist",
+            "sales-outreach",
+            "paid-media-ppc-strategist",
+            "paid-media-paid-social-strategist"
+          ]
+        },
+        {
+          "group": "Build & Fulfillment",
+          "activation": "week 2+",
+          "agents": [
+            "design-ux-architect",
+            "design-ui-designer",
+            "engineering-frontend-developer",
+            "marketing-seo-specialist",
+            "marketing-content-creator",
+            "paid-media-tracking-specialist",
+            "marketing-email-strategist"
+          ]
+        },
+        {
+          "group": "Retention & Quality",
+          "activation": "launch+",
+          "agents": [
+            "customer-success-manager",
+            "support-support-responder",
+            "support-analytics-reporter",
+            "testing-evidence-collector",
+            "testing-reality-checker",
+            "project-management-experiment-tracker",
+            "support-executive-summary-generator"
+          ]
+        }
+      ]
     }
   ]
 }

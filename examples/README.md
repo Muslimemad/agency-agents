@@ -39,6 +39,12 @@ These examples answer the question: *"What does it actually look like when the f
 
 **Key takeaway:** All 8 agents ran in parallel and produced coherent, cross-referencing plans without coordination overhead. The output demonstrates the agency's ability to go from "find an opportunity" to "here's the full blueprint" in a single session.
 
+### [workflow-home-services-contractor-funnel.md](./workflow-home-services-contractor-funnel.md)
+
+**What:** The full offer, funnel and automation design for an agent-run web agency that sells "booked-jobs" websites to US roofing, HVAC, plumbing and electrical contractors.
+
+**Includes:** value-equation offer with a 60-day call guarantee and pricing tiers, ICP scoring from Google Maps data, a prebuilt spec-site generator, a 4-step cold email sequence with an AI reply router, the preview/checkout page, a 7-day onboarding pipeline, the monthly Booked-Jobs Report, an n8n workflow inventory, compliance guardrails (CAN-SPAM, TCPA, A2P 10DLC), and activation prompts for every agent. Pairs with the [home-services runbook](../strategy/runbooks/scenario-home-services-websites.md).
+
 ## Adding New Examples
 
 If you run an interesting multi-agent exercise, consider adding it here. Good examples show:
